@@ -2,6 +2,8 @@ require "thor"
 
 module Keytaker
   class CLI < Thor
+    default_command :take
+
     desc "take", "Take a key"
     def take
       Keytaker::Item.select&.copy
