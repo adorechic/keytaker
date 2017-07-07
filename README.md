@@ -1,28 +1,16 @@
 # Keytaker
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/keytaker`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Keytaker is a tool to use Mac Keychain on CLI.
+Keytaker supports your to add/delete Keychain item on CLI, and select key via peco interface, copy it to clipboard.
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'keytaker'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
 
     $ gem install keytaker
 
 ## Usage
 
-TODO: Write usage instructions here
+    $ keytaker set your_key_name # Setup your key
+    $ keytaker # Select key, Keytaker copies it to your clipboard.
+
 
 ## Development
 
@@ -38,4 +26,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
