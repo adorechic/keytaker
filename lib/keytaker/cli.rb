@@ -1,4 +1,5 @@
 require "thor"
+require 'readline'
 
 module Keytaker
   class CLI < Thor
